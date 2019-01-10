@@ -17,7 +17,6 @@ class LanguageDetection {
 				break;
 			}
 		}
-		System.out.println(exist);
 		if(!exist) {
 			LanguageDetection m = new LanguageDetection("training-data.txt");
 		}
